@@ -110,4 +110,99 @@ header{
     color: rgb(255, 255, 255);
     font-weight: 650;
 }
+.cards-pricing{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+  }
+
+.titlepricing{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: rgb(0, 0, 0);
+    font-size: 2rem;
+    margin-top: -4rem;
+  }
+.pricing-boxs{
+    width: 100%;
+    display: flex;
+    gap: 5rem;
+    justify-content: center;
+  }
   
+  
+.div-pricing-2{
+    width: 20rem;
+    height: 27rem;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(7, 38, 65);
+    margin-top: 2.5rem;
+    margin-bottom: 2.5rem;
+  }
+  
+.div-pricing-2 > h3{
+    margin: 2rem;
+    color: rgb(226, 231, 236);
+  }
+  
+.div-pricing-2 > p > span{
+    font-size: 3rem;
+  }
+  
+.div-pricing-2 > p{
+    color: rgb(255, 255, 255);
+    margin: 0.5rem;
+  }
+  
+.div-pricing-2 > button{
+    margin-top: 1rem;
+    height: 2.5rem;
+    width: 6rem;
+    border-radius: 20px;
+    border: none;
+    text-decoration: none;
+    background-color:  rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    font-weight: 650;
+  }
+  
+.div-pricing-1{
+    width: 18rem;
+    height: 25rem;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(252, 248, 248);
+    margin-top: 3.5rem;
+    margin-bottom: 2.5rem;
+  }
+  
+.div-pricing-1 > h3{
+    margin: 2rem;
+    color: rgb(0, 0, 0);
+  } 
+.div-pricing-1 > p{
+    color: rgb(0, 0, 0);
+    margin: 0.5rem;
+  }
+  
+.div-pricing-1 > button{
+    margin-top: 1rem;
+    height: 2.5rem;
+    width: 6rem;
+    border-radius: 20px;
+    border: none;
+    text-decoration: none;
+    background-color:  rgb(48, 238, 175);
+    color: rgb(0, 0, 0);
+    font-weight: 650;
+  }
+  
+
+  
+ 
